@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/state_item_list"
+        android:padding="10dip" >
+
+        <RelativeLayout
+            android:id="@+id/data_sugg"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="10dip"
+            android:layout_marginRight="20dip" >
+
+            <TextView
+                android:id="@+id/day_sugg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="30sp"
+                android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/month_sugg"
+                style="?android:textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/day_sugg"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/Gray"
+                android:typeface="sans" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/data_sugg"
+            android:layout_toRightOf="@+id/data_sugg"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/id_sugg"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/title_sugg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="@dimen/custom_text"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/luogo_sugg"
+                style="?android:textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/Gray" />
+
+            <TextView
+                android:id="@+id/category_sugg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="1dp"
+                android:fontFamily="sans-serif-condensed"
+                android:padding="2dp"
+                android:textAllCaps="true"
+                android:textColor="@color/Orange"
+                android:textSize="11sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lapis</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_categories">Categorie</string>
+    <string name="action_province">Province</string>
+    <string name="action_date">Filtra per data</string>
+    <string name="action_share">Condividi</string>
+    <string name="nd_desc">Title</string>
+    <string name="image">image</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="no_connection">Connessione Internet assente</string>
+    <string name="verifica_connessione">Verifica la tua connessione e riprova.</string>
+    <string name="empty_list">Nessun evento in programma</string>
+    <string name="tipo_home">EVENTI DEL GIORNO</string>
+    <string name="title1">TUTTI GLI EVENTI A</string>
+    <string name="a_list_1">Agrigento</string>
+    <string name="b_list_1">Caltanissetta</string>
+    <string name="c_list_1">Catania</string>
+    <string name="d_list_1">Enna</string>
+    <string name="e_list_1">Messina</string>
+    <string name="f_list_1">Palermo</string>
+    <string name="g_list_1">Ragusa</string>
+    <string name="h_list_1">Siracusa</string>
+    <string name="i_list_1">Trapani</string>
+    <string name="a_list_2">In evidenza</string>
+    <string name="b_list_2">Categorie</string>
+    <string name="det_cat">COSA:</string>
+    <string name="det_when">QUANDO:</string>
+    <string name="det_when_hour">ORE:</string>
+    <string name="det_where">DOVE:</string>
+    <string name="det_price">PREZZO:</string>
+    <string name="det_desc">desc</string>
+    <string name="event_suggested">Eventi suggeriti</string>
+    <string name="filter_date">Data</string>
+    <string name="filter_category">Categorie</string>
+    <string name="select_category">Seleziona una categoria:</string>
+    <string name="select_date">Seleziona una data:</string>
+    <string name="select_province">Seleziona una provincia:</string>
+    <string name="action_refresh">Ricarica pagina</string>
+
+</resources>

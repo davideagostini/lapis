@@ -1,0 +1,16 @@
+<resources>
+
+    <!--
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw600dp devices (e.g. 7" tablets) here.
+    -->
+
+    <dimen name="title_detail">22sp</dimen>
+    <dimen name="subtitle_detail">18sp</dimen>
+    <dimen name="standard_text">16sp</dimen>
+    <dimen name="custom_text">18sp</dimen>
+    <dimen name="width_image_home">90dp</dimen>
+    <dimen name="height_image_home">90dp</dimen>
+    <dimen name="width_date_event">150dp</dimen>
+
+</resources>

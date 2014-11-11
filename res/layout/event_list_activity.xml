@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/statusConnection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="#333333"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:text="@string/no_connection"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/title_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/statusConnection"
+        android:background="@color/Black"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:textAllCaps="true"
+        android:textColor="@color/Orange"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:id="@+id/filter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_list"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/filter_date"
+            style="@style/ButtonFilter"
+            android:layout_marginRight="10dp"
+            android:clickable="true"
+            android:drawableRight="@drawable/ic_action_delete"
+            android:fontFamily="sans-serif-condensed"
+            android:textAllCaps="true"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/filter_province"
+            style="@style/ButtonFilter"
+            android:clickable="true"
+            android:drawableRight="@drawable/ic_action_delete"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-condensed"
+            android:singleLine="true"
+            android:textAllCaps="true"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/filter"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10sp"
+        android:listSelector="@android:color/transparent"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:scrollbarStyle="@android:color/transparent" >
+    </ListView>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@android:id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/empty_list"
+        android:textColor="#54545c"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

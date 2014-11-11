@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="Green">#008149</color>
+    <color name="White">#ffffff</color>
+    <color name="MenuPressed">#111111</color>
+    <color name="Black">#000000</color>
+    <color name="DarkGray">#464646</color>
+    <color name="LightGray">#d8d8d8</color>
+    <color name="HalfGray">#efefef</color>
+    <color name="Gray">#666666</color>
+    <color name="Blue">#004494</color>
+    <color name="LightGreen">#8aaf19</color>
+    <color name="DarkYellow">#dc9931</color>
+    <color name="Yellow">#fbb03b</color>
+    <color name="transparent">#eecccccc</color>
+    <color name="Red">#c00</color>
+    <color name="Orange">#f15a24</color>
+    <color name="Sabbia">#ebe8e2</color>
+    <color name="bgBlack">#2f2f2f</color>
+
+</resources>

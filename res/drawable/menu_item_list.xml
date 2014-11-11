@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@color/MenuPressed" android:state_pressed="true"/>
+    <item android:drawable="@drawable/rectangle_with_left_border" android:state_activated="true"/>
+
+</selector>

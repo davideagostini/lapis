@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/state_item_list"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:id="@+id/event_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip" >
+
+                <ImageView
+                    android:id="@+id/event_thumb_image"
+                    android:layout_width="@dimen/width_image_home"
+                    android:layout_height="@dimen/height_image_home"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/nd_desc"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/thumb" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/desc_event"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/event_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/event_title"
+                    android:textSize="@dimen/custom_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-condensed" />
+
+                <TextView
+                    android:id="@+id/event_date"
+                    style="?android:textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/event_luogo"
+                    style="?android:textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/Gray" />
+
+                <TextView
+                    android:id="@+id/event_category"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_margin="1dp"
+                    android:padding="2dp"
+                    android:textAllCaps="true"
+                    android:textColor="@color/Orange"
+                    android:textSize="11sp"
+                    android:fontFamily="sans-serif-condensed" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

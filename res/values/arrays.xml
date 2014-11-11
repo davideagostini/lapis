@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="list_1">
+        <item>a_list_2</item>
+        <item>b_list_2</item>
+    </string-array>
+
+    <array name="icon_list_1">
+        <item>ic_action_important</item>
+        <item>ic_action_sort_by_size</item>
+    </array>
+
+    <string-array name="list_2">
+        <item>a_list_1</item>
+        <item>b_list_1</item>
+        <item>c_list_1</item>
+        <item>d_list_1</item>
+        <item>e_list_1</item>
+        <item>f_list_1</item>
+        <item>g_list_1</item>
+        <item>h_list_1</item>
+        <item>i_list_1</item>
+    </string-array>
+
+    <array name="icon_list_2">
+        <item>ic_ag</item>
+        <item>ic_cl</item>
+        <item>ic_ct</item>
+        <item>ic_en</item>
+        <item>ic_me</item>
+        <item>ic_pa</item>
+        <item>ic_rg</item>
+        <item>ic_sr</item>
+        <item>ic_tp</item>
+    </array>
+
+</resources>
